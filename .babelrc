@@ -1,0 +1,18 @@
+{
+    "env": {
+      "development": {
+        "presets": [
+          "power-assert"
+        ]
+      }
+    },
+    "plugins": [
+      "transform-decorators-legacy",
+      "transform-object-rest-spread",
+      "transform-async-to-generator",
+      "transform-runtime"
+    ],
+    "presets": [
+      "env"
+    ]
+  }
